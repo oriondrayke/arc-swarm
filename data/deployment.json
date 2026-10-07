@@ -1,1 +1,15 @@
-{"chainId":5042,"address":null,"status":"pending"}
+{
+  "chainId": 5042,
+  "address": "0xEE252502C04cC61B86Cd6A9322e4222D065a6EE7",
+  "owner": "0x24F6A3F57549520cB3b2D1C691d2933Aecfa62EB",
+  "transactionHash": "0x65c3a25daa7a889cc056eb09ab3c3c7687173cb2540fb60799a6fc0838de28b1",
+  "blockNumber": 24735267,
+  "runtimeVerified": true,
+  "runtimeKeccak": "0xc35ffd19463c143e2dfccba304a688fde0bd32dceaedafb7c558b71de26b1633",
+  "sourceSHA256": "b632db08707425ae2388387c5913f8475c9ded1cea8afec912b4ac43b59175b4",
+  "compiler": "0.8.30",
+  "taskCapWei": "100000000000000000",
+  "outstandingCapWei": "1000000000000000000",
+  "deploymentGasUSDC": 0.01943606120212031,
+  "status": "deployed"
+}
