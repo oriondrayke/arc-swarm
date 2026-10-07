@@ -26,4 +26,6 @@ This is an early prototype. Task quality is reviewed by the coordinator, not inf
 - Deployment + live demonstration + internal gas transfer cost approximately 0.07618 USDC in gas.
 - Mainnet caps intentionally small for the prototype: 0.1 USDC per task and 1 USDC outstanding.
 
-Submission status: prepared, not submitted. DoraHacks presents a human-verification screen in the existing logged-in browser profile. Complete that in a normal browser, then reuse the existing Arc registration; do not create a duplicate entry. Required links and description above are ready.
+Submission status: **Submitted and under review**, confirmed in DoraHacks on October 7, 2026 at 16:32 EAT. The existing registered account was used; the user completed the final submission in the shared visible browser. The confirmation states: “Your Build Arc Swarm has been submitted to hackathon Arc Microgrants | Circle and is now under review.” Edits remain possible before judging. No award or payout has been received.
+
+Status page: https://dorahacks.io/hackathon/arc-microgrants/build
