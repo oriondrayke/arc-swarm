@@ -28,4 +28,6 @@ This is an early prototype. Task quality is reviewed by the coordinator, not inf
 
 Submission status: **Submitted and under review**, confirmed in DoraHacks on October 7, 2026 at 16:32 EAT. The existing registered account was used; the user completed the final submission in the shared visible browser. The confirmation states: “Your Build Arc Swarm has been submitted to hackathon Arc Microgrants | Circle and is now under review.” Edits remain possible before judging. No award or payout has been received.
 
+Build page: https://dorahacks.io/build/49432
+
 Status page: https://dorahacks.io/hackathon/arc-microgrants/build
