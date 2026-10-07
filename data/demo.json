@@ -1,0 +1,44 @@
+{
+  "description": "Operator-controlled self-test, not customer revenue. Worker committed a fleet snapshot report; coordinator checked its count, total and source hash before approval.",
+  "taskId": 1,
+  "worker": "0x05c0dc1A47678C3ffBcF3e85F3508457584608ef",
+  "rewardUSDC": "0.0001",
+  "resultHash": "0xa2d8384554be4f91df0ff0f133cfdc4d8f9ba10afd643c8005af9b8777b46f55",
+  "state": "Paid",
+  "registeredWallets": 101,
+  "receipts": [
+    {
+      "action": "register-fleet",
+      "hash": "0xbf9e300ef0ce075d2613426c4ddd6e844ab257a4952918a5add0c0920f382895",
+      "block": 24735633,
+      "gasUSDC": 0.05129802637634389
+    },
+    {
+      "action": "create-demo-task",
+      "hash": "0x233ba1e4d354ad6e175a400408740c845536f9bd323750da9b3735ae65c89bd0",
+      "block": 24735643,
+      "gasUSDC": 0.002868580356564494
+    },
+    {
+      "action": "submit-demo-result",
+      "hash": "0x87ec07c254543ee7cbbfb996f04591300da9524bda58eb56e77dcbc388d77298",
+      "block": 24735653,
+      "gasUSDC": 0.00106310013214333
+    },
+    {
+      "action": "approve-demo-task",
+      "hash": "0x9ee9a56e266975b27df714f80c28b86e0115a2f30f75face18e011c5bc4aee11",
+      "block": 24735663,
+      "gasUSDC": 0.001092020135738086
+    }
+  ],
+  "totalGasUSDC": 0.07575778820291011,
+  "internalFundingTransfer": {
+    "hash": "0xefcf64efe1874a72a44510d0defa8007352d0a91ec0d62b2017c7e5d1305be08",
+    "block": 24735566,
+    "gasUSDC": 0.000420000045402,
+    "amountUSDC": "0.01",
+    "purpose": "Internal gas rebalance between existing operator fleet wallets"
+  },
+  "totalGasIncludingRebalanceUSDC": 0.07617778824831212
+}

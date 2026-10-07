@@ -43,7 +43,7 @@ async function transact(label,details,method,args=[],value=0n){
  try{const live=new BrowserProvider(window.ethereum);if(Number((await live.getNetwork()).chainId)!==CHAIN)throw Error('Wallet network changed.');const current=await live.getSigner();if((await current.getAddress())!==account)throw Error('Wallet account changed. Reconnect.');const c=contract.connect(current);await c[method].staticCall(...args,{value});const tx=await c[method](...args,{value});say('Submitted '+tx.hash+' — waiting for receipt. Do not repeat this action.');download('arc-swarm-pending-transaction.json',{chainId:CHAIN,hash:tx.hash,contract:deployment.address,action:label});await tx.wait();say('Confirmed: '+tx.hash);await renderTasks();}finally{busy=false;}
 }
 async function renderTasks(){
- $('tasks').replaceChildren();if(!contract){$('tasks').textContent='Mainnet contract deployment is pending. Fleet monitoring and budget export are available.';return;}
+ $('tasks').replaceChildren();if(!contract){$('task-count').textContent='—';$('escrow-status').textContent='Deployment pending';$('tasks').textContent='Mainnet contract deployment is pending. Fleet monitoring and budget export are available.';return;}
  const [count,total,owner,cap,maximum,paused]=await Promise.all([contract.taskCount(),contract.outstanding(),contract.owner(),contract.maxTaskReward(),contract.maxOutstanding(),contract.paused()]);
  $('task-count').textContent=count.toString();$('escrow-status').textContent=`${money(total)} USDC in escrow${paused?' · paused':''}`;
  $('owner-note').textContent=`Coordinator: ${owner}. Only this address can fund or approve tasks.`;$('caps').textContent=`Task cap ${money(cap)} USDC · total escrow cap ${money(maximum)} USDC${paused?' · new tasks and payments paused':''}`;

@@ -1,21 +1,21 @@
 {
   "chainId": 5042,
-  "blockNumber": 24735787,
-  "observedAt": "2026-10-07T13:14:23.432027+00:00",
+  "blockNumber": 24734460,
+  "observedAt": "2026-10-07T13:03:10.447909+00:00",
   "wallets": [
     {
       "label": "Coordinator",
       "address": "0x24F6A3F57549520cB3b2D1C691d2933Aecfa62EB",
       "status": "verified",
-      "balanceWei": "10854308181003223",
-      "nonce": 402
+      "balanceWei": "75648996251770000",
+      "nonce": 398
     },
     {
       "label": "Worker 1",
       "address": "0x05c0dc1A47678C3ffBcF3e85F3508457584608ef",
       "status": "verified",
-      "balanceWei": "33167915822454668",
-      "nonce": 17
+      "balanceWei": "44551015999999998",
+      "nonce": 15
     },
     {
       "label": "Worker 2",

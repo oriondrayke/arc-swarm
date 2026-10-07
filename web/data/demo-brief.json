@@ -1,0 +1,5 @@
+{
+  "brief": "Read the Arc Swarm public fleet at one finalized block and report wallet count, missing reads, total native USDC and reserve shortfalls. Preserve the block number and full public-address evidence.",
+  "hash": "0x34eecb19c1423f95157e621d6f279ad29fd5e507b6f0a3af291996a7692cde15",
+  "deadline": 1791465159
+}

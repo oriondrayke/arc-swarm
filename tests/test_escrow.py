@@ -85,3 +85,30 @@ def test_invalid_inputs_and_unsubmitted_payment(env):
     with pytest.raises(TransactionFailed):c.functions.setWorkers(['0x'+'0'*40],True).transact({'from':o})
     with pytest.raises(TransactionFailed):c.functions.createTask(a,w.eth.get_block('latest').timestamp+31*86400,Web3.keccak(text='x')).transact({'from':o,'value':1})
     with pytest.raises(TransactionFailed):c.functions.createTask(a,w.eth.get_block('latest').timestamp+100,Web3.keccak(text='x')).transact({'from':b,'value':1})
+
+def test_rejected_transfer_preserves_escrow_for_retry(env):
+    import solcx
+    w,c,o,a,b=env
+    source='''pragma solidity 0.8.30;
+    interface ISwarm { function submitResult(uint256,bytes32) external; }
+    contract Worker {
+      bool public reject = true;
+      function submit(address s,uint256 id) external { ISwarm(s).submitResult(id,keccak256("work")); }
+      function accept() external { reject=false; }
+      receive() external payable { require(!reject); }
+    }'''
+    artifact=solcx.compile_source(source,output_values=['abi','bin'],solc_version='0.8.30',evm_version='paris')['<stdin>:Worker']
+    factory=w.eth.contract(abi=artifact['abi'],bytecode=artifact['bin'])
+    addr=w.eth.wait_for_transaction_receipt(factory.constructor().transact({'from':o})).contractAddress
+    worker=w.eth.contract(address=addr,abi=artifact['abi'])
+    c.functions.setWorkers([addr],True).transact({'from':o})
+    c.functions.createTask(addr,w.eth.get_block('latest').timestamp+300,Web3.keccak(text='brief')).transact({'from':o,'value':123})
+    worker.functions.submit(c.address,1).transact({'from':o})
+    with pytest.raises(TransactionFailed):c.functions.approveTask(1).transact({'from':o})
+    assert c.functions.outstanding().call()==123
+    assert c.functions.tasks(1).call()[3]==2
+    assert w.eth.get_balance(c.address)==123
+    worker.functions.accept().transact({'from':o})
+    c.functions.approveTask(1).transact({'from':o})
+    assert w.eth.get_balance(addr)==123
+    assert c.functions.outstanding().call()==0

@@ -18,4 +18,12 @@ This is an early prototype. Task quality is reviewed by the coordinator, not inf
 - Mainnet contract and receipts: data/deployment.json and data/demo.json
 - Builder: https://github.com/oriondrayke
 
-Submission status: prepared, not submitted. Verify links and deployment evidence before submitting.
+## Verified October 7, 2026
+- Contract: https://explorer.arc.io/address/0xEE252502C04cC61B86Cd6A9322e4222D065a6EE7
+- Runtime bytecode matched the compiled constructor output; source hash and compiler settings are in data/deployment.json. This is local bytecode verification, not a claim of explorer source verification or an independent audit.
+- 101 addresses registered. Mission 1 completed with a 0.0001 USDC reward and zero remaining escrow.
+- Payment receipt: https://explorer.arc.io/tx/0x9ee9a56e266975b27df714f80c28b86e0115a2f30f75face18e011c5bc4aee11
+- Deployment + live demonstration + internal gas transfer cost approximately 0.07618 USDC in gas.
+- Mainnet caps intentionally small for the prototype: 0.1 USDC per task and 1 USDC outstanding.
+
+Submission status: prepared, not submitted. DoraHacks presents a human-verification screen in the existing logged-in browser profile. Complete that in a normal browser, then reuse the existing Arc registration; do not create a duplicate entry. Required links and description above are ready.
