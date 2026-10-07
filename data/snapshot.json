@@ -1,0 +1,714 @@
+{
+  "chainId": 5042,
+  "blockNumber": 24734460,
+  "observedAt": "2026-10-07T13:03:10.447909+00:00",
+  "wallets": [
+    {
+      "label": "Coordinator",
+      "address": "0x24F6A3F57549520cB3b2D1C691d2933Aecfa62EB",
+      "status": "verified",
+      "balanceWei": "75648996251770000",
+      "nonce": 398
+    },
+    {
+      "label": "Worker 1",
+      "address": "0x05c0dc1A47678C3ffBcF3e85F3508457584608ef",
+      "status": "verified",
+      "balanceWei": "44551015999999998",
+      "nonce": 15
+    },
+    {
+      "label": "Worker 2",
+      "address": "0xc89483EaB198aA7c040f96f3024eEd0E011ef06b",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 9
+    },
+    {
+      "label": "Worker 3",
+      "address": "0xe1a7D5F9E5Df14CDb97900fDC1130c3c239058eF",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 10
+    },
+    {
+      "label": "Worker 4",
+      "address": "0xaEA2aD64CD1b01BEF64434f88557071Bc5777F36",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 10
+    },
+    {
+      "label": "Worker 5",
+      "address": "0xaDa3441fcADdd0cf4DDC399D142f347270975079",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 9
+    },
+    {
+      "label": "Worker 6",
+      "address": "0x6b93810E598bc66c69a8CE9095f0C120006Bd60B",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 10
+    },
+    {
+      "label": "Worker 7",
+      "address": "0xcaa7d377606881923f6D6908B26835Cc2d8cE8c0",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 9
+    },
+    {
+      "label": "Worker 8",
+      "address": "0x7F169b295E6e525eb732BB1D5e33e39d8a34ea61",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 9
+    },
+    {
+      "label": "Worker 9",
+      "address": "0x0ADD51A181726DE4399Bf36a3F5100444a2D5A1F",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 8
+    },
+    {
+      "label": "Worker 10",
+      "address": "0xE2b9B89AE877e547C1552Ad065aA88b5A351F809",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 9
+    },
+    {
+      "label": "Worker 11",
+      "address": "0x39559E8f56Fef1C5d46AF404980C6F4fdb1a745f",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 9
+    },
+    {
+      "label": "Worker 12",
+      "address": "0x900E6A71Ef072ecdfBa824EAD9A7505839801f8C",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 8
+    },
+    {
+      "label": "Worker 13",
+      "address": "0xDf0DA8409Ef5707caac5E14afe6b6984a2333Cdd",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 8
+    },
+    {
+      "label": "Worker 14",
+      "address": "0xB18Bccb5147690B2F77E5F82a09187f176A6266D",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 7
+    },
+    {
+      "label": "Worker 15",
+      "address": "0x38e68DC56017458B1715289EE40DC68974e596ec",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 8
+    },
+    {
+      "label": "Worker 16",
+      "address": "0xffE5E15e4c8F040E3d583e3ecc84495f4dCd29ce",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 8
+    },
+    {
+      "label": "Worker 17",
+      "address": "0xe2971C46BeF343DfafBad1159C710D6E601B421a",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 7
+    },
+    {
+      "label": "Worker 18",
+      "address": "0x6C113C2f322F73b1599E2382429A66CD148C1BAF",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 7
+    },
+    {
+      "label": "Worker 19",
+      "address": "0x2ADf698aA678D19C266b35babDF0feFBcAB3Ee79",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 8
+    },
+    {
+      "label": "Worker 20",
+      "address": "0x2a45a49cf1cbEe34b1bf17f00b2B5366609f6143",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 7
+    },
+    {
+      "label": "Worker 21",
+      "address": "0x15283360E38e60eefC8f1974fCdB4DfFf4f26Aa7",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 4
+    },
+    {
+      "label": "Worker 22",
+      "address": "0x88b10e603FaFF37B7b094353772261E8DA216476",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 5
+    },
+    {
+      "label": "Worker 23",
+      "address": "0x1729dD72a52e9E5a0B3747d53F522Ce461cED28d",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 5
+    },
+    {
+      "label": "Worker 24",
+      "address": "0x0f449D2515D8fF633b1f343271ACD3B1E38a2a61",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 5
+    },
+    {
+      "label": "Worker 25",
+      "address": "0x2aD126Ab61d7EFaA7F3f9F8FF56dBc8ffC11193F",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 4
+    },
+    {
+      "label": "Worker 26",
+      "address": "0x4E10391296b926efA32c5dDFac20F2E45BD78EB8",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 4
+    },
+    {
+      "label": "Worker 27",
+      "address": "0x29110721BF23Bf5A29706096c372E15e15f40aC4",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 3
+    },
+    {
+      "label": "Worker 28",
+      "address": "0xA038172852bEfE0407AA8313c60cEf5e021F9875",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 4
+    },
+    {
+      "label": "Worker 29",
+      "address": "0xb80C3B0Ac29eFe830E90749B92daDB747CdB3F21",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 3
+    },
+    {
+      "label": "Worker 30",
+      "address": "0x73eC4aaD46Db8C5bAF168b4255020EA7448c32d3",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 3
+    },
+    {
+      "label": "Worker 31",
+      "address": "0xC27A7401A2AC07df8BDE0E57BBd0045048e0b37D",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 4
+    },
+    {
+      "label": "Worker 32",
+      "address": "0xd2bBa2e3981D00B327856c397EB5fc08BA7C12DE",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 3
+    },
+    {
+      "label": "Worker 33",
+      "address": "0x04Bb17C92Bb988c9C71Da1C45BDb9C7Eb6AF26ec",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 4
+    },
+    {
+      "label": "Worker 34",
+      "address": "0x7cfb1087EC4c40CDAE8Ae6BaE069Db40698d6be4",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 4
+    },
+    {
+      "label": "Worker 35",
+      "address": "0xf48Af4338F7D8D84cF2128135897714e554E74C0",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 4
+    },
+    {
+      "label": "Worker 36",
+      "address": "0x4477Ac32DD27aeF0B02d9047e5667B0C3594C4d5",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 4
+    },
+    {
+      "label": "Worker 37",
+      "address": "0xe9Db4f4a97e90308023886a55eDa36724208F7f8",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 3
+    },
+    {
+      "label": "Worker 38",
+      "address": "0x9A0EF97C97c99B670aa8b157E56067Cee6613d53",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 3
+    },
+    {
+      "label": "Worker 39",
+      "address": "0xE979afa376821f309b00D0EE1CB0B0B85b421394",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 4
+    },
+    {
+      "label": "Worker 40",
+      "address": "0xDfcEE02a0eC406feD36752CFaE08866676Bc7F3e",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 4
+    },
+    {
+      "label": "Worker 41",
+      "address": "0x8C1BF6F0Ea8E12D3029556Deb5F73B2003799Ea5",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 4
+    },
+    {
+      "label": "Worker 42",
+      "address": "0xaa1eE3B10577aAe4bB0A7D40411a8930acffD003",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 4
+    },
+    {
+      "label": "Worker 43",
+      "address": "0x952AD0DbB1a6DBe00d709c719B7848A88dEEe9D4",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 4
+    },
+    {
+      "label": "Worker 44",
+      "address": "0xdC424720826C72CB2Ff1eC1BFF2f0609f2c22120",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 4
+    },
+    {
+      "label": "Worker 45",
+      "address": "0xB15f0b0BF42EfdaA1f26b22CB3Aa5c37F25d825d",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 4
+    },
+    {
+      "label": "Worker 46",
+      "address": "0x3C9C80Ce0D26e71f84b75E6FbD000F70F70aD103",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 3
+    },
+    {
+      "label": "Worker 47",
+      "address": "0xD894DEA9742Bf89Fd4F1659d0a3E6FDE54fafdf2",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 3
+    },
+    {
+      "label": "Worker 48",
+      "address": "0xA9BE7CA75E070EF957E74FBBb9dbE3940e3d4A15",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 3
+    },
+    {
+      "label": "Worker 49",
+      "address": "0x0f80576d5a4daAaF11527c11b5a493ECB1d2D4BC",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 3
+    },
+    {
+      "label": "Worker 50",
+      "address": "0x11C5A8586703D57427817b3585803CCf2650a685",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 4
+    },
+    {
+      "label": "Worker 51",
+      "address": "0x45f3bF99e110b0f396Ae2A09842FaCb1e181E7E8",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 3
+    },
+    {
+      "label": "Worker 52",
+      "address": "0x4b16A955904dddbbcCe213254BEc4c41EC8870f9",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 3
+    },
+    {
+      "label": "Worker 53",
+      "address": "0x2D2E9C6d02413C89aAC166E9802CD40eB8d9f122",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 3
+    },
+    {
+      "label": "Worker 54",
+      "address": "0xC7f3E8E0aE752623c9285A0e4195b04EA17B4D15",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 3
+    },
+    {
+      "label": "Worker 55",
+      "address": "0x24Dcf85104f64282D6f8ECaDf915890E349225c4",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 3
+    },
+    {
+      "label": "Worker 56",
+      "address": "0x9d27bAaCDe50d5dbcb6bD6A3e68D348E5AE42803",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 3
+    },
+    {
+      "label": "Worker 57",
+      "address": "0xC9117299E7F04c3E10CDB89baBD4e8503FcAF31F",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 2
+    },
+    {
+      "label": "Worker 58",
+      "address": "0x8dF79d47a61c8C75fAa6bf2eF1a8645943Dcd5Fb",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 3
+    },
+    {
+      "label": "Worker 59",
+      "address": "0xF73F7AED713AAcd0Ee4f9954300165953818fA69",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 2
+    },
+    {
+      "label": "Worker 60",
+      "address": "0xaCd7691cdfF1118b85Af7aCA50e22beadF155FCd",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 2
+    },
+    {
+      "label": "Worker 61",
+      "address": "0x18C09021bEB7Ff9e359081a1ed9C97e17f8A1Ea0",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 2
+    },
+    {
+      "label": "Worker 62",
+      "address": "0xEb472Dc675e1F6E9427cB64ce4FEcbD214796c50",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 3
+    },
+    {
+      "label": "Worker 63",
+      "address": "0xdb754C8ab7bDe9e87e78C0435000C79FCDf0D2dc",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 2
+    },
+    {
+      "label": "Worker 64",
+      "address": "0x3B305C70A14bB5513b09a49EDA061bBC952c86A8",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 3
+    },
+    {
+      "label": "Worker 65",
+      "address": "0x16F968b7dB36C9B1315fFaB38Fdca57115689412",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 2
+    },
+    {
+      "label": "Worker 66",
+      "address": "0x7e63fEd805A8C1765cC6fE63e0E8d7C9Ab57fb61",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 2
+    },
+    {
+      "label": "Worker 67",
+      "address": "0xcab31309031d92a017AaCb632CfC905D10E8BA56",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 2
+    },
+    {
+      "label": "Worker 68",
+      "address": "0xD08f5B3eb84b8e99B150C05B995aDFFE3dB795f2",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 2
+    },
+    {
+      "label": "Worker 69",
+      "address": "0xe71d1c1D0B2fD2EDd15DAB70090EA21e6CE17C41",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 3
+    },
+    {
+      "label": "Worker 70",
+      "address": "0x635c765b0BAbaD0af51CD88547031975fB3af81E",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 3
+    },
+    {
+      "label": "Worker 71",
+      "address": "0x5590f36B5c50C517BD3943aA8619563425De26A9",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 3
+    },
+    {
+      "label": "Worker 72",
+      "address": "0xEC3180bb14303614066120C712f0f2a01e514581",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 3
+    },
+    {
+      "label": "Worker 73",
+      "address": "0x5921390a0B8F7D37a5b6346B2f66b1970F4EDf51",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 3
+    },
+    {
+      "label": "Worker 74",
+      "address": "0xc31C61A9d6fB09376bf75Ddbd321DeBcDAB6dd1e",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 3
+    },
+    {
+      "label": "Worker 75",
+      "address": "0xB476874428Ebc3c1cC90d763Abd7321A983d8fD7",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 2
+    },
+    {
+      "label": "Worker 76",
+      "address": "0x8f57D510833655Bd3a40373C2B7819299f0dB552",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 3
+    },
+    {
+      "label": "Worker 77",
+      "address": "0xf28Cb8ac65e699357601698BF951e9DCE050dc40",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 3
+    },
+    {
+      "label": "Worker 78",
+      "address": "0x1f4bA010A4f18f6B999b46a295C684DAec1665A9",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 2
+    },
+    {
+      "label": "Worker 79",
+      "address": "0xbA8aa5e086E28B99d9CFBC37d07b7AD11ab6b94D",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 2
+    },
+    {
+      "label": "Worker 80",
+      "address": "0xA20de1D092BE16d9CB3f4be128d5eB565b7D52d4",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 3
+    },
+    {
+      "label": "Worker 81",
+      "address": "0x407a3757245fB76958aEa9c39D0210E25ebEe5c6",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 2
+    },
+    {
+      "label": "Worker 82",
+      "address": "0x3eF0B3c1D5ad4c8B4490C2aF52979a8237D14e54",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 2
+    },
+    {
+      "label": "Worker 83",
+      "address": "0xfA72BecaE45A2bAA1b5401310bDd2e243bDCacba",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 3
+    },
+    {
+      "label": "Worker 84",
+      "address": "0x4C100feB1B0f7f6627788c557fC39f66C671592D",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 2
+    },
+    {
+      "label": "Worker 85",
+      "address": "0xA6927De4cbd2425d99C7267AeEF9A4dB80b0ABE3",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 2
+    },
+    {
+      "label": "Worker 86",
+      "address": "0xBE49C24Bf04CeedAe77Cb147aA9A30F3FE544a7e",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 3
+    },
+    {
+      "label": "Worker 87",
+      "address": "0x025fEdD0eeED911CA6f852974D74A18A2Ff0Bc4B",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 3
+    },
+    {
+      "label": "Worker 88",
+      "address": "0x2CFBa35f35f4acbB9615d409923d5A33333E0991",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 3
+    },
+    {
+      "label": "Worker 89",
+      "address": "0xEcf14e36f15764e42eD04bbEB513439a27B0cc29",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 3
+    },
+    {
+      "label": "Worker 90",
+      "address": "0xEe32E1f4Bad751Eb1D0D1Ecde7a4622085f4633E",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 2
+    },
+    {
+      "label": "Worker 91",
+      "address": "0xC1601848497Bb516d5C8D491A5Ab6E3267608338",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 3
+    },
+    {
+      "label": "Worker 92",
+      "address": "0xeCffA24D035E00B4a10CCc4b0Ed8F709b8a5D12E",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 3
+    },
+    {
+      "label": "Worker 93",
+      "address": "0x1F6c456eE1C0D708364e0c7dfcf1dA60AD159866",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 3
+    },
+    {
+      "label": "Worker 94",
+      "address": "0xE700DD5e85c837Ea4453efb94b4c916cf80C48b1",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 2
+    },
+    {
+      "label": "Worker 95",
+      "address": "0x8AA2BC7747b253b38ac0fd56592C89d96632feEA",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 2
+    },
+    {
+      "label": "Worker 96",
+      "address": "0xa59963063Cb2514ffC61c57202D3B50d20A7eA9B",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 3
+    },
+    {
+      "label": "Worker 97",
+      "address": "0x589e60451104C9a78CBcCC06078a3f48fdd11300",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 3
+    },
+    {
+      "label": "Worker 98",
+      "address": "0x1B237C64631097B73E530E93e1fe64Ec44C554dA",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 3
+    },
+    {
+      "label": "Worker 99",
+      "address": "0x1aDC05eb8057B2779D048C5Eda433DB7654eFF6D",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 2
+    },
+    {
+      "label": "Worker 100",
+      "address": "0xC3464B379f0d41Ecb5A6C5520B7530d3a55bf167",
+      "status": "verified",
+      "balanceWei": "0",
+      "nonce": 3
+    }
+  ]
+}

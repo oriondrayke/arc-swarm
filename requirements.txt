@@ -1,0 +1,5 @@
+web3==7.14.0
+requests>=2.32,<3
+py-solc-x==2.0.5
+eth-tester[py-evm]==0.14.0b1
+pytest==9.1.1
